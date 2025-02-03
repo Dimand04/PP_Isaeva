@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>createuser</class>
+ <widget class="QWidget" name="createuser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(224, 210, 131);</string>
+  </property>
+  <widget class="QLineEdit" name="le_newName">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>10</y>
+     <width>200</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 217);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Имя</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_newPatronymic">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>40</y>
+     <width>200</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 217);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Отчество</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_newSurname">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>70</y>
+     <width>200</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 217);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Фамилия</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_newPhone">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>100</y>
+     <width>200</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 217);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Номер телефона</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_newPassword">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>130</y>
+     <width>200</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 217);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Пароль</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_newPasswordConfirm">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>160</y>
+     <width>200</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 217);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Повторите пароль</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="qpb_createNewAccount">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>220</y>
+     <width>200</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Создать учётную запись</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_roles">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>190</y>
+     <width>200</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 217);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Тип учётной записи</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
